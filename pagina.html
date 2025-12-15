@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>    
+
+const Pessoa = { nome: "Rodri", idade: 30, nacionalidade: "PT", Naturalidade: "Porto"};
+console.log(Pessoa);
+
+const valoresUtilizador = Object.entries(Pessoa);
+for ( let c = 0; c < valoresUtilizador.length; c++){
+const chaveValorUtilizador = valoresUtilizador [c];
+console.log(chaveValorUtilizador[1]);
+}
+
+
+const texto = "Apesar dos esforços que decorreram durante esta segunda-feira para encontrar os três pescadores desaparecidos na sequência do naufrágio da embarcação"
+
+const textoLength = texto.length;
+
+const posicaoSegundaPalavra = texto.indexOf("dos");
+
+const palavraAlterada = texto.replace("Apesar", "Javascript é espetacular");
+
+const palavraAlteradaMaiusculas = palavraAlterada.toUpperCase();
+const palavraAlteradaMinusculas = palavraAlterada.toLowerCase();
+
+const arrayPalavraAlterada = palavraAlterada.split("espetacular");
+
+
+    </script>
+</body>
+</html>

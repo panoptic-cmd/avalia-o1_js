@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>    
+
+// 1
+
+const paises = ['Albânia','Bolívia','Canadá','Dinamarca','Etiópia','Finlândia','Alemanha','Hungria','Irlanda','Japão','Quênia'];
+for (let c = 0; c <= paises.length; c++) {
+console.log(paises[c]);
+}
+// 2
+
+//function numeroPaises(paises) {
+//return paises.length;
+//}
+const quantidadePaises = paises.length;
+console.log(quantidadePaises);
+
+
+// 3 
+paises.unshift("Portugal");
+console.log(paises);
+
+// 4
+
+paises.push("Espanha");
+console.log(paises);
+
+// 5
+
+function ultimosTres(paises){
+for (let i = paises.length - 3; i < paises.length; i++) {
+console.log(paises[i]);}
+}
+
+// 6
+
+console.log(paises.join("-"));
+
+</script>
+
+</body>
+</html>
